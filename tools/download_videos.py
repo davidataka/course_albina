@@ -11,7 +11,7 @@ from urllib.request import urlopen
 ROOT = Path(__file__).resolve().parents[1]
 FFMPEG = ROOT / ".tools" / "ffmpeg" / "ffmpeg-9.0.1-essentials_build" / "bin" / "ffmpeg.exe"
 FFPROBE = FFMPEG.with_name("ffprobe.exe")
-JOBS_FILE = ROOT / ".work" / "video-jobs.json"
+JOBS_FILE = ROOT / ".work" / "medium-video-jobs.json"
 LOG_DIR = ROOT / "Архив курса" / "_служебное" / "журнал-видео"
 
 
@@ -36,7 +36,7 @@ def download(job: dict) -> dict:
         download_subtitle(job)
         return result
 
-    playlist = select_best_playlist(job["playlist"])
+    playlist = select_best_playlist(job["playlist"], job.get("target_height", 720))
 
     command = [
         str(FFMPEG),
@@ -84,7 +84,7 @@ def validate_video(output: Path) -> dict:
         return {"probe_error": probe.stderr.strip()}
 
 
-def select_best_playlist(master_url: str) -> str:
+def select_best_playlist(master_url: str, target_height: int = 720) -> str:
     try:
         with urlopen(master_url, timeout=60) as response:
             text = response.read().decode("utf-8", errors="replace")
@@ -104,12 +104,16 @@ def select_best_playlist(master_url: str) -> str:
             width = int(resolution.group(1)) if resolution else 0
             height = int(resolution.group(2)) if resolution else 0
             rate = int(bandwidth.group(1)) if bandwidth else 0
-            candidates.append((width * height, rate, urljoin(master_url, following)))
+            candidates.append((height, width, rate, urljoin(master_url, following)))
             break
     if not candidates:
         return master_url
-    candidates.sort(key=lambda item: (item[0], item[1]), reverse=True)
-    return candidates[0][2]
+    at_or_below_target = [item for item in candidates if item[0] <= target_height]
+    if at_or_below_target:
+        at_or_below_target.sort(key=lambda item: (item[0], item[1], item[2]), reverse=True)
+        return at_or_below_target[0][3]
+    candidates.sort(key=lambda item: (item[0], item[1], item[2]))
+    return candidates[0][3]
 
 
 def download_subtitle(job: dict) -> None:
