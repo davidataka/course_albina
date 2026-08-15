@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Переход к архиву курса</title>
+    <script>
+      const parts = location.pathname.split('/').filter(Boolean);
+      const base = location.hostname.endsWith('github.io') && parts.length ? `/${parts[0]}/` : '/';
+      location.replace(base + location.hash);
+    </script>
+  </head>
+  <body><a href="./">Открыть архив курса</a></body>
+</html>

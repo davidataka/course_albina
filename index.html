@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f1e8">
+    <meta name="description" content="Личный архив курса о питании и здоровом образе жизни">
+    <title>Коррекция питания и ЗОЖ — архив курса</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Перейти к содержанию</a>
+
+    <header class="topbar">
+      <button class="menu-button" id="menuButton" type="button" aria-label="Открыть оглавление" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <a class="brand" href="#overview" aria-label="На главную страницу курса">
+        <span class="brand-mark">АК</span>
+        <span class="brand-copy">
+          <strong>Коррекция питания и ЗОЖ</strong>
+          <small>Личный архив курса</small>
+        </span>
+      </a>
+      <label class="search">
+        <span class="visually-hidden">Найти урок</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+        <input id="searchInput" type="search" placeholder="Найти урок" autocomplete="off">
+      </label>
+    </header>
+
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar" aria-label="Оглавление курса">
+        <div class="sidebar-head">
+          <div>
+            <span class="eyebrow">Ваш прогресс</span>
+            <strong id="progressLabel">0 из 49 уроков</strong>
+          </div>
+          <span class="progress-value" id="progressPercent">0%</span>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
+        <nav id="courseNav"></nav>
+      </aside>
+
+      <button class="scrim" id="scrim" type="button" aria-label="Закрыть оглавление"></button>
+
+      <main id="content" tabindex="-1">
+        <div class="loading-state">Собираем материалы курса…</div>
+      </main>
+    </div>
+
+    <dialog class="lightbox" id="lightbox">
+      <button type="button" id="closeLightbox" aria-label="Закрыть изображение">×</button>
+      <img id="lightboxImage" alt="">
+      <p id="lightboxCaption"></p>
+    </dialog>
+
+    <script src="assets/course-data.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
