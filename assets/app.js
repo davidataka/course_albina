@@ -193,7 +193,13 @@
       video.controls = true;
       video.preload = 'metadata';
       video.playsInline = true;
-      video.src = localHost ? encodeURI(block.localSrc) : block.src;
+      video.setAttribute('playsinline', '');
+      video.setAttribute('webkit-playsinline', '');
+      const videoSrc = localHost ? encodeURI(block.localSrc) : block.src;
+      const source = document.createElement('source');
+      source.src = videoSrc;
+      source.type = 'video/mp4';
+      video.append(source);
       if (block.caption) {
         const track = document.createElement('track');
         track.kind = 'subtitles';
@@ -205,7 +211,7 @@
       const caption = el('figcaption', 'video-caption');
       caption.append(el('span', '', `Видео ${String(block.number).padStart(2, '0')}`));
       const download = el('a', '', 'Открыть отдельно');
-      download.href = video.src;
+      download.href = videoSrc;
       download.target = '_blank';
       download.rel = 'noopener';
       caption.append(download);

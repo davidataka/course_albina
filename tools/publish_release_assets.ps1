@@ -2,12 +2,17 @@ param(
     [string]$Repository = 'davidataka/course_albina',
     [string]$Tag = 'course-videos-720p',
     [string]$Manifest = '.work/site-release-assets.tsv',
+    [string]$AssetDirectory,
     [switch]$DryRun
 )
 
 $ErrorActionPreference = 'Stop'
 $workspace = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $manifestPath = (Resolve-Path (Join-Path $workspace $Manifest)).Path
+$assetDirectoryPath = if ($AssetDirectory) { (Resolve-Path (Join-Path $workspace $AssetDirectory)).Path } else { $null }
+if ($assetDirectoryPath -and -not $assetDirectoryPath.StartsWith($workspace)) {
+    throw 'Asset directory must be inside the workspace.'
+}
 $bundledGit = 'C:\Users\User\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd\git.exe'
 $git = if (Test-Path -LiteralPath $bundledGit) { $bundledGit } else { (Get-Command git -ErrorAction Stop).Source }
 $safe = 'safe.directory=' + ($workspace -replace '\\', '/')
@@ -30,11 +35,12 @@ $rows = foreach ($line in Get-Content -LiteralPath $manifestPath) {
     if (-not $line.Trim()) { continue }
     $parts = $line -split "`t", 3
     if ($parts.Count -ne 3) { throw "Invalid manifest row: $line" }
-    $file = Get-Item -LiteralPath $parts[1]
+    $filePath = if ($assetDirectoryPath) { Join-Path $assetDirectoryPath $parts[0] } else { $parts[1] }
+    $file = Get-Item -LiteralPath $filePath
     [pscustomobject]@{ Name = $parts[0]; Path = $file.FullName; Label = $parts[2]; Size = $file.Length }
 }
 
-if ($rows.Count -ne 31) { throw "Expected 31 video assets, found $($rows.Count)." }
+if ($rows.Count -lt 1 -or $rows.Count -gt 31) { throw "Expected 1 to 31 video assets, found $($rows.Count)." }
 if (($rows.Name | Select-Object -Unique).Count -ne $rows.Count) { throw 'Release asset names are not unique.' }
 
 $allReleases = @(Invoke-RestMethod -Uri "https://api.github.com/repos/$Repository/releases?per_page=100" -Headers $headers)
@@ -50,8 +56,8 @@ if (-not $release) {
         $body = @{
             tag_name = $Tag
             target_commitish = 'master'
-            name = 'Видео курса — 720p'
-            body = 'Видео среднего качества для архивной версии курса. Используются плеерами GitHub Pages.'
+            name = 'Видео курса — 720p, mobile'
+            body = 'Видео среднего качества с MP4 fast start для совместимого воспроизведения на телефонах и в GitHub Pages.'
             draft = $true
             prerelease = $false
         } | ConvertTo-Json
@@ -109,8 +115,10 @@ try {
                 }
                 $uploaded = $true
             } catch {
-                $remoteAssets = @(Invoke-RestMethod -Uri "https://api.github.com/repos/$Repository/releases/$($release.id)/assets?per_page=100" -Headers $headers)
-                $completedRemote = $remoteAssets | Where-Object { $_.name -eq $row.Name -and [int64]$_.size -eq [int64]$row.Size } | Select-Object -First 1
+                $releaseCheck = Invoke-RestMethod -Uri "https://api.github.com/repos/$Repository/releases/$($release.id)" -Headers $headers
+                $completedRemote = @($releaseCheck.assets) | Where-Object {
+                    [string]$_.name -eq [string]$row.Name -and [int64]$_.size -eq [int64]$row.Size
+                } | Select-Object -First 1
                 if ($completedRemote) {
                     $uploaded = $true
                     Write-Output "[$index/$($rows.Count)] GitHub completed the asset after the connection closed: $($row.Name)"

@@ -114,7 +114,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-002-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-002-video-01.mp4",
               "localSrc": "Архив курса/01_Ознакомительная часть/01_Введение/Видео 01.mp4",
               "caption": null,
               "assetName": "lesson-002-video-01.mp4"
@@ -540,7 +540,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-009-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-009-video-01.mp4",
               "localSrc": "Архив курса/01_Ознакомительная часть/08_Как будет проходить работа с куратором/Видео 01.mp4",
               "caption": "Архив курса/01_Ознакомительная часть/08_Как будет проходить работа с куратором/Видео 01.vtt",
               "assetName": "lesson-009-video-01.mp4"
@@ -601,7 +601,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-010-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-010-video-01.mp4",
               "localSrc": "Архив курса/01_Ознакомительная часть/09_Правила общения с куратором/Видео 01.mp4",
               "caption": "Архив курса/01_Ознакомительная часть/09_Правила общения с куратором/Видео 01.vtt",
               "assetName": "lesson-010-video-01.mp4"
@@ -674,7 +674,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-011-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-011-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/01_Правила построения рациона/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/01_Правила построения рациона/Видео 01.vtt",
               "assetName": "lesson-011-video-01.mp4"
@@ -797,7 +797,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-012-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-012-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/02_5 обязательных групп продуктов/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/02_5 обязательных групп продуктов/Видео 01.vtt",
               "assetName": "lesson-012-video-01.mp4"
@@ -939,7 +939,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-013-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-013-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/03_Молочные и соевые продукты/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/03_Молочные и соевые продукты/Видео 01.vtt",
               "assetName": "lesson-013-video-01.mp4"
@@ -1056,7 +1056,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-014-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-014-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/04_Отдельные группы продуктов/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/04_Отдельные группы продуктов/Видео 01.vtt",
               "assetName": "lesson-014-video-01.mp4"
@@ -1148,7 +1148,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-015-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-015-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/05_Соль. Сахар. Сахарозаменители/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/05_Соль. Сахар. Сахарозаменители/Видео 01.vtt",
               "assetName": "lesson-015-video-01.mp4"
@@ -1211,7 +1211,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 2,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-015-video-02.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-015-video-02.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/05_Соль. Сахар. Сахарозаменители/Видео 02.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/05_Соль. Сахар. Сахарозаменители/Видео 02.vtt",
               "assetName": "lesson-015-video-02.mp4"
@@ -1314,7 +1314,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-016-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-016-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/06_Напитки/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/06_Напитки/Видео 01.vtt",
               "assetName": "lesson-016-video-01.mp4"
@@ -1391,7 +1391,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-017-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-017-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/07_Хранение продуктов. Зонирование холодильника/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/07_Хранение продуктов. Зонирование холодильника/Видео 01.vtt",
               "assetName": "lesson-017-video-01.mp4"
@@ -1503,7 +1503,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-018-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-018-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/08_Голод и насыщение/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/08_Голод и насыщение/Видео 01.vtt",
               "assetName": "lesson-018-video-01.mp4"
@@ -1580,7 +1580,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-019-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-019-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/09_Дневник питания и шкалы голода-насыщения/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/09_Дневник питания и шкалы голода-насыщения/Видео 01.vtt",
               "assetName": "lesson-019-video-01.mp4"
@@ -1663,7 +1663,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-020-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-020-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/10_Здоровое пищевое поведение- что это-/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/10_Здоровое пищевое поведение- что это-/Видео 01.vtt",
               "assetName": "lesson-020-video-01.mp4"
@@ -1740,7 +1740,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-021-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-021-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/11_Популярные диеты/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/11_Популярные диеты/Видео 01.vtt",
               "assetName": "lesson-021-video-01.mp4"
@@ -1867,7 +1867,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-022-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-022-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/12_Почему я не худею-/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/12_Почему я не худею-/Видео 01.vtt",
               "assetName": "lesson-022-video-01.mp4"
@@ -1934,7 +1934,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-023-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-023-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/13_Витамины и БАДы/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/13_Витамины и БАДы/Видео 01.vtt",
               "assetName": "lesson-023-video-01.mp4"
@@ -2016,7 +2016,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-024-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-024-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/14_Физическая активность/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/14_Физическая активность/Видео 01.vtt",
               "assetName": "lesson-024-video-01.mp4"
@@ -2133,7 +2133,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-025-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-025-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/01_Про питание/15_Сон и стресс/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/01_Про питание/15_Сон и стресс/Видео 01.vtt",
               "assetName": "lesson-025-video-01.mp4"
@@ -2251,7 +2251,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-026-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-026-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/02_Психология/01_Постановка цели/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/02_Психология/01_Постановка цели/Видео 01.vtt",
               "assetName": "lesson-026-video-01.mp4"
@@ -2332,7 +2332,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-027-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-027-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/02_Психология/02_Внутренний критик/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/02_Психология/02_Внутренний критик/Видео 01.vtt",
               "assetName": "lesson-027-video-01.mp4"
@@ -2444,7 +2444,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-028-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-028-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/02_Психология/03_Здоровая мотивация/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/02_Психология/03_Здоровая мотивация/Видео 01.vtt",
               "assetName": "lesson-028-video-01.mp4"
@@ -2604,7 +2604,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-030-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-030-video-01.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 01.mp4",
               "caption": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 01.vtt",
               "assetName": "lesson-030-video-01.mp4"
@@ -2617,7 +2617,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 2,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-030-video-02.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-030-video-02.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 02.mp4",
               "caption": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 02.vtt",
               "assetName": "lesson-030-video-02.mp4"
@@ -2630,7 +2630,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 3,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-030-video-03.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-030-video-03.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 03.mp4",
               "caption": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 03.vtt",
               "assetName": "lesson-030-video-03.mp4"
@@ -2643,7 +2643,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 4,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-030-video-04.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-030-video-04.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 04.mp4",
               "caption": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 04.vtt",
               "assetName": "lesson-030-video-04.mp4"
@@ -2656,7 +2656,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 5,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-030-video-05.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-030-video-05.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 05.mp4",
               "caption": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 05.vtt",
               "assetName": "lesson-030-video-05.mp4"
@@ -2669,7 +2669,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 6,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-030-video-06.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-030-video-06.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 06.mp4",
               "caption": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 06.vtt",
               "assetName": "lesson-030-video-06.mp4"
@@ -2682,7 +2682,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 7,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-030-video-07.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-030-video-07.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 07.mp4",
               "caption": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 07.vtt",
               "assetName": "lesson-030-video-07.mp4"
@@ -2695,7 +2695,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 8,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-030-video-08.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-030-video-08.mp4",
               "localSrc": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 08.mp4",
               "caption": "Архив курса/02_Теоретическая часть/03_Уроки для самостоятельной работы/01_8 уроков для самостоятельной работы/Видео 08.vtt",
               "assetName": "lesson-030-video-08.mp4"
@@ -3269,7 +3269,7 @@ window.COURSE_DATA = {
             {
               "type": "video",
               "number": 1,
-              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p/lesson-047-video-01.mp4",
+              "src": "https://github.com/davidataka/course_albina/releases/download/course-videos-720p-mobile/lesson-047-video-01.mp4",
               "localSrc": "Архив курса/05_Дополнительные уроки/02_Психология. Платные уроки/01_Переедание/Видео 01.mp4",
               "caption": "Архив курса/05_Дополнительные уроки/02_Психология. Платные уроки/01_Переедание/Видео 01.vtt",
               "assetName": "lesson-047-video-01.mp4"

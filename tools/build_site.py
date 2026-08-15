@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE = ROOT / "Архив курса"
 OUTPUT = ROOT / "assets" / "course-data.js"
 RELEASE_MAP = ROOT / ".work" / "site-release-assets.tsv"
-RELEASE_TAG = "course-videos-720p"
+RELEASE_TAG = "course-videos-720p-mobile"
 RELEASE_BASE = f"https://github.com/davidataka/course_albina/releases/download/{RELEASE_TAG}"
 
 
